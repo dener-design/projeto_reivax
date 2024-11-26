@@ -69,7 +69,7 @@ const carousel = {
       slideNumber === 1
         ? "foto_borracha_1x.webp"
         : "foto_po_de_borracha_1x.webp";
-    this.elements.foto.style.backgroundImage = `url('./public/img/${bgImage}')`;
+    this.elements.foto.style.backgroundImage = `url('/public/img/${bgImage}')`;
 
     // Atualiza conteúdos
     this.elements.contents.forEach((content) => {
@@ -219,10 +219,10 @@ const carouselProcesso = {
   },
 
   backgroundImages: {
-    1: "./public/img/foto_processo_01_1x.webp",
-    2: "./public/img/foto_processo_02_1x.webp",
-    3: "./public/img/foto_processo_03_1x.webp",
-    4: "./public/img/foto_processo_04_1x.webp",
+    1: "/public/img/foto_processo_01_1x.webp",
+    2: "/public/img/foto_processo_02_1x.webp",
+    3: "/public/img/foto_processo_03_1x.webp",
+    4: "/public/img/foto_processo_04_1x.webp",
   },
 
   init() {
