@@ -80,7 +80,7 @@ header.sticky {
 .exibir__menu {
   display: none;
   padding: 0.75em;
-  mask: url(/public/img/icon_exibir_menu.svg);
+  mask: url(./public/img/icon_exibir_menu.svg);
   mask-repeat: no-repeat;
   mask-size: 1.5em;
   mask-position: center;
@@ -96,7 +96,7 @@ header.sticky {
 
 .fechar_menu__overlay {
   display: none;
-  background: url(/public/img/icon_fechar_menu.svg) no-repeat center;
+  background: url(./public/img/icon_fechar_menu.svg) no-repeat center;
   width: 3em;
   height: 3em;
   color: transparent;
@@ -198,19 +198,19 @@ a.navegacao__principal_link.active::after {
 }
 
 .icon__social__menu.instagram {
-  mask: url(/public/img/logo_instagram.svg);
+  mask: url(./public/img/logo_instagram.svg);
   mask-repeat: no-repeat;
   mask-size: cover;
 }
 
 .icon__social__menu.facebook {
-  mask: url(/public/img/logo_facebook.svg);
+  mask: url(./public/img/logo_facebook.svg);
   mask-repeat: no-repeat;
   mask-size: cover;
 }
 
 .icon__social__menu.linkedin {
-  mask: url(/public/img/logo_linkedin.svg);
+  mask: url(./public/img/logo_linkedin.svg);
   mask-repeat: no-repeat;
   mask-size: cover;
 }
@@ -238,15 +238,15 @@ a.navegacao__principal_link.active::after {
 }
 
 .barra__idiomas_bandeira.brasil {
-  background-image: url(/public/img/bandeira_brasil.svg);
+  background-image: url(./public/img/bandeira_brasil.svg);
 }
 
 .barra__idiomas_bandeira.espanha {
-  background-image: url(/public/img/bandeira_espanha.svg);
+  background-image: url(./public/img/bandeira_espanha.svg);
 }
 
 .barra__idiomas_bandeira.eua {
-  background-image: url(/public/img/bandeira_eua.svg);
+  background-image: url(./public/img/bandeira_eua.svg);
 }
 
 a.barra__idiomas_bandeira.active,
@@ -299,7 +299,7 @@ main {
   max-height: 31em;
   aspect-ratio: 16 / 9;
   margin: 0 auto;
-  background-image: url(/public/img/foto_hero_1x.webp);
+  background-image: url(./public/img/foto_hero_1x.webp);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -312,7 +312,7 @@ main {
 
 .hero::before {
   content: "";
-  background: url(/public/img/icon_iso_hero.svg) no-repeat center;
+  background: url(./public/img/icon_iso_hero.svg) no-repeat center;
   background-size: cover;
   width: 80px;
   height: 80px;
@@ -324,7 +324,7 @@ main {
 
 .hero::after {
   content: "";
-  background: url(/public/img/linhas_hero.svg) no-repeat;
+  background: url(./public/img/linhas_hero.svg) no-repeat;
   width: 333px;
   height: 100%;
   display: block;
@@ -393,7 +393,7 @@ main {
   display: block;
   position: absolute;
   right: 0;
-  background: url(/public/img/sombra_foto_produtos.png);
+  background: url(./public/img/sombra_foto_produtos.png);
   background-repeat: no-repeat;
   background-position: top center;
   width: 7.125em;
@@ -445,7 +445,7 @@ main {
 
 .carousel__topo_navegacao .voltar {
   display: block;
-  background: url(/public/img/controle_voltar.svg) no-repeat center;
+  background: url(./public/img/controle_voltar.svg) no-repeat center;
   width: 1.5em;
   height: 1.5em;
   color: transparent;
@@ -454,7 +454,7 @@ main {
 
 .carousel__topo_navegacao .avancar {
   display: block;
-  background: url(/public/img/controle_avancar.svg) no-repeat center;
+  background: url(./public/img/controle_avancar.svg) no-repeat center;
   width: 3em;
   height: 1.5em;
   color: transparent;
@@ -483,7 +483,7 @@ main {
 }
 
 .abrir__galeria__fotos__produtos i {
-  background: url(/public/img/icon_abrir_galeria.svg) no-repeat center;
+  background: url(./public/img/icon_abrir_galeria.svg) no-repeat center;
   background-size: cover;
   display: inline-block;
   width: 1.5rem;
@@ -533,7 +533,7 @@ main {
   flex-shrink: 0;
   width: 1.5em;
   height: 1.5em;
-  background: url("/public/img/icon_bullet_points.svg") no-repeat center;
+  background: url("./public/img/icon_bullet_points.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -579,7 +579,7 @@ main {
       rgba(17, 17, 17, 0.5),
       rgba(17, 17, 17, 0.5)
     ),
-    url(/public/img/bg_video.gif);
+    url(./public/img/bg_video.gif);
   background-size: cover;
   width: 42rem;
   height: 19.5rem;
@@ -605,7 +605,7 @@ main {
 }
 
 .sobre__nos__conteudo_video a {
-  background: url(/public/img/icon_play_video.svg) no-repeat center;
+  background: url(./public/img/icon_play_video.svg) no-repeat center;
   display: block;
   width: 100%;
   height: 100%;
@@ -623,7 +623,8 @@ main {
   width: calc(100% - 1.5em);
   margin: 4em auto;
   padding: 2.5em 2.5em 0;
-  background: url(/public/img/foto_quais_vantagens_1x.webp) no-repeat top center;
+  background: url(./public/img/foto_quais_vantagens_1x.webp) no-repeat top
+    center;
   background-size: cover;
   z-index: 1;
 }
@@ -671,19 +672,19 @@ main {
 }
 
 .lista__de__vantagens_card.economia i {
-  background-image: url(/public/img/icon_vantagens_economia.svg);
+  background-image: url(./public/img/icon_vantagens_economia.svg);
 }
 
 .lista__de__vantagens_card.tempo i {
-  background-image: url(/public/img/icon_vantagens_tempo.png);
+  background-image: url(./public/img/icon_vantagens_tempo.png);
 }
 
 .lista__de__vantagens_card.quimicos i {
-  background-image: url(/public/img/icon_vantagens_quimicos.svg);
+  background-image: url(./public/img/icon_vantagens_quimicos.svg);
 }
 
 .lista__de__vantagens_card.reciclagem i {
-  background-image: url(/public/img/icon_vantagens_reciclagem.svg);
+  background-image: url(./public/img/icon_vantagens_reciclagem.svg);
 }
 
 .lista__de__vantagens_card h3 {
@@ -763,7 +764,7 @@ main {
 }
 .controles__carousel_processo .controles .voltar {
   display: block;
-  background: url(/public/img/controle_voltar_black.svg) no-repeat center;
+  background: url(./public/img/controle_voltar_black.svg) no-repeat center;
   width: 1.5em;
   height: 1.5em;
   color: transparent;
@@ -772,7 +773,7 @@ main {
 
 .controles__carousel_processo .controles .avancar {
   display: block;
-  background: url(/public/img/controle_avancar_black.svg) no-repeat center;
+  background: url(./public/img/controle_avancar_black.svg) no-repeat center;
   width: 3em;
   height: 1.5em;
   color: transparent;
@@ -1038,11 +1039,12 @@ main {
 }
 
 .voltar__depoimentos {
-  background: url("/public/img/controle_voltar_depoimento.svg") no-repeat center;
+  background: url("./public/img/controle_voltar_depoimento.svg") no-repeat
+    center;
 }
 
 .avancar__depoimentos {
-  background: url("/public/img/controle_avancar_depoimento.svg") no-repeat
+  background: url("./public/img/controle_avancar_depoimento.svg") no-repeat
     center;
 }
 
@@ -1126,7 +1128,7 @@ main {
   width: 1em;
   height: 1em;
   margin-left: 0.5em;
-  background: url("/public/img/icon_link_leia_mais.svg") no-repeat center;
+  background: url("./public/img/icon_link_leia_mais.svg") no-repeat center;
 }
 
 .leia__mais:hover {
@@ -1134,7 +1136,7 @@ main {
 }
 
 .leia__mais.active::after {
-  background-image: url("/public/img/icon_link_leia_mais_up.svg");
+  background-image: url("./public/img/icon_link_leia_mais_up.svg");
 }
 
 .leia__mais.disabled {
@@ -1174,7 +1176,7 @@ main {
 .foto__politica__qualidade {
   display: flex;
   width: 50%;
-  background: url(/public/img/foto_politica_de_qualidade_1x.webp);
+  background: url(./public/img/foto_politica_de_qualidade_1x.webp);
   background-size: cover;
   height: auto;
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
@@ -1232,7 +1234,7 @@ main {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url("/public/img/icon_ir_para_topo.svg") no-repeat center;
+  background: url("./public/img/icon_ir_para_topo.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -1317,7 +1319,7 @@ address a::after {
   height: 16px;
   margin-left: 8px;
   margin-top: 4px;
-  background: url("/public/img/icon_ir_para_google_maps.svg") no-repeat center;
+  background: url("./public/img/icon_ir_para_google_maps.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -1350,19 +1352,19 @@ address a:hover {
 }
 
 .social_footer li:nth-child(1) a {
-  mask: url(/public/img/logo_instagram.svg);
+  mask: url(./public/img/logo_instagram.svg);
   mask-repeat: no-repeat;
   mask-size: cover;
 }
 
 .social_footer li:nth-child(2) a {
-  mask: url(/public/img/logo_facebook.svg);
+  mask: url(./public/img/logo_facebook.svg);
   mask-repeat: no-repeat;
   mask-size: cover;
 }
 
 .social_footer li:nth-child(3) a {
-  mask: url(/public/img/logo_linkedin.svg);
+  mask: url(./public/img/logo_linkedin.svg);
   mask-repeat: no-repeat;
   mask-size: cover;
 }
@@ -1566,7 +1568,7 @@ address a:hover {
     content: "";
     width: 1.5rem;
     height: 1.5rem;
-    mask: url(/public/img/icon_exibir_menu.svg);
+    mask: url(./public/img/icon_exibir_menu.svg);
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: contain;
@@ -1623,7 +1625,7 @@ address a:hover {
     width: 100%;
   }
   .hero {
-    background: #070707 url(/public/img/foto_hero_rwd_1x.webp) no-repeat right
+    background: #070707 url(./public/img/foto_hero_rwd_1x.webp) no-repeat right
       bottom;
 
     width: calc(100% - 2rem);
@@ -1671,7 +1673,7 @@ address a:hover {
 
   .foto__produto_wrapper::before {
     bottom: -40px;
-    background: url(/public/img/sombra_foto_produtos_rwd.png);
+    background: url(./public/img/sombra_foto_produtos_rwd.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 100%;
@@ -1721,7 +1723,7 @@ address a:hover {
   }
 
   .carousel__topo_navegacao.footer .voltar {
-    background: url(/public/img/controle_voltar_black.svg) no-repeat center;
+    background: url(./public/img/controle_voltar_black.svg) no-repeat center;
     width: 1.5em;
     height: 1.5em;
     color: transparent;
@@ -1730,7 +1732,7 @@ address a:hover {
 
   .carousel__topo_navegacao.footer .avancar {
     display: block;
-    background: url(/public/img/controle_avancar_black.svg) no-repeat center;
+    background: url(./public/img/controle_avancar_black.svg) no-repeat center;
     width: 3em;
     height: 1.5em;
     color: transparent;
